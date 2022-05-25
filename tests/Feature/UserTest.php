@@ -15,7 +15,7 @@ class UserTest extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('/users');
+        $response = $this->get('/');
 
         $response->assertJson(200);
     }
