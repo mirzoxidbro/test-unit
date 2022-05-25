@@ -17,6 +17,6 @@ class UserTest extends TestCase
     {
         $response = $this->get('/');
 
-        $response->assertJson(200);
+        $response->assertStatus(200);
     }
 }

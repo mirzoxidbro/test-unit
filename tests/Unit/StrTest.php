@@ -26,11 +26,5 @@ class StrTest extends TestCase
         $this->assertTrue($name == "Mirzoxid");
     }
 
-    public function test_str_utils_ucfirst_with_space()
-    {
-        $name = ' mirzoxid';
-        $name = Str::ucfirst($name);
-        $this->assertTrue($name == "Mirzoxid");
-    }
-    
+        
 }
