@@ -6,8 +6,11 @@ class Str {
 
     public static function  ucfirst(string $str)
     {
+    
         return ucfirst($str);
+    
     }
+
 
 }
 
